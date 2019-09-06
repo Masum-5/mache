@@ -1,0 +1,617 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+/*header section*/
+header{
+    background: url(../img/banner-bg.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{}
+.navbar .navbar-brand{
+    margin-top: 20px;
+}
+.navbar navbar-nav{}
+.navbar .nav-item{
+    margin-top: 20px;
+}
+header .nav-link{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: all .4s linear;
+    text-transform: uppercase
+}
+header .nav-link:hover{
+   color: #ed145b;
+}
+.banner-content{
+    text-align: center;
+    margin-top: 30vh;
+}
+.banner-content h1{
+    font-size: 50px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.banner-content h1:after{
+ content: '';
+	height: 2px;
+	width: 200px;
+	background: #ed145b;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.banner-content h1 span{
+    color: #fff;
+    font-weight: 600;
+}
+.banner-content p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.7;
+    padding: 0 6%;
+    margin-top: 25px;
+    font-weight: 300;
+}
+.banner form{
+    display: inline-block;
+}
+.banner-content a{}
+.banner-content .banner-btn{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    background: #ed145b;
+    margin-top: 70px;
+    padding: 10px 45px;
+    border-radius: 30px;
+    transition: all .4s ease;
+}
+.banner-content .banner-btn:hover{
+    background: transparent;
+	border: 1px solid #ed145b;
+}
+
+/*########mocup section starts########*/
+.mockup{
+    padding: 80px 0;
+    background: #f4f4f4;
+    position: relative;
+}
+.mockup h1{
+    font-size: 35px;
+    color: #5a5a5a;
+    font-weight: 400;
+    padding-right: 15%;
+    font-style: italic;
+}
+.mockup h1:after{
+	content: '';
+	height: 2px;
+	width: 200px;
+	background: #ed145b;
+	display: block;
+	margin-top: 20px;
+}
+.mockup p{
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 30px 0;
+    padding: 0 20% 0 0;
+}
+.mockup a{
+    text-decoration: none;
+}
+.mockup .video{
+    color: #ed145b;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.mockup .img{
+    position: absolute;
+    top: 80px;
+    left: 35%;
+    
+}
+/*########mocup section end########*/
+
+/*######## service section starts########*/
+
+
+.service{
+    padding: 150px 0;
+}
+.service h2{
+    font-size: 35px;
+    color: #5a5a5a;
+    font-weight: 300;
+    font-style: italic;
+}
+.service h2:after{
+	content: '';
+	height: 2px;
+	width: 200px;
+	background: #ed145b;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.service p{
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 30px 0 60px;
+    padding: 0 17%;
+}
+.service img{}
+.service h6{
+    color: #ed145b;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+/*######## service section ends########*/
+
+
+
+/*######## comment section starts########*/
+
+
+.comment{
+	background: url(../img/banner-bg.png);
+	height: 400px;
+    background-size: cover;
+	position: relative;
+}
+.carousel{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+.carousel-inner{}
+.carousel-item{}
+.carousel-item .comment-content{}
+.carousel-item .comment-content h1{
+    color: #ed145b;
+}
+.carousel-item .comment-content h1 i{}
+.carousel-item .comment-content h5{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 19%;
+    line-height: 1.7;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.carousel-control-prev{
+    font-size: 25px;
+    left: 15%;
+    height: fit-content;
+    width: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-control-next{
+    font-size: 25px;
+    right: 15%;
+    height: fit-content;
+    width: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*######## comment section ends########*/
+
+
+/*######## price section starts########*/
+
+.price{
+    padding: 80px 0;
+    background: #F4F4F4;
+}
+.price h2{
+    font-size: 35px;
+    color: #5a5a5a;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.price h2:after{
+	content: '';
+	height: 2px;
+	width: 200px;
+	background: #ed145b;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.price p{
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 30px 0 60px;
+    padding: 0 17%;
+}
+.price .card{
+    background: #5A5A5A;
+    border: none;
+    position: relative;
+    transition: all .4s ease;
+    margin-top: 20px;
+}
+.price .card:hover{
+	background: #ed145b;
+}
+.price .card h1{
+    color: #f4f4f4;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+
+}
+.price .card h1 span{
+    font-size: 20px;
+}
+.price .card p{
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+.price .card-body{
+    background: #fff;
+    text-align: center;
+}
+.price .card-body .title{
+    position: absolute;
+    display: inline-block;
+    color: #5a5a5a;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 45px;
+    background: #f4f4f4;
+    left: 50%;
+    transform: translate(-50%);
+    top: 140px;
+    border-radius: 30px;
+    transition: all .4s linear;
+   
+}
+
+.price .card-body .title:hover{
+	text-decoration: none;
+	background: #5a5a5a;
+	color: #fff;
+}
+
+.price .card-body ul{
+    padding: 15px 0;
+    text-align: center;
+}
+.price .card-body ul li{
+    list-style: none;
+    display: block;
+    margin-top: 15px;
+    color: #5a5a5a;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.price .card-body .btn-buy{
+    display: inline-block;
+    color: #f4f4f4;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 45px;
+    background: #ed145b;
+    border-radius: 30px;
+    transition: all .4s linear;
+}
+.price .card-body .btn-buy:hover{
+	background: transparent;
+	color: #5a5a5a;
+	border: 1px solid #ed145b;
+}
+/*######## comment section ends########*/
+/*######## category section starts########*/
+.category{
+    padding: 90px 0 0;
+}
+.category img{}
+.category h4{
+    color: #ed145b;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.category p{
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 70px;
+}
+/*######## category section ends########*/
+
+/*######## join  section starts########*/
+.join{
+    padding: 40px 0;
+    background: #ed145b;
+}
+.join h1{
+    margin: 0;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.join h1 span{
+    font-weight: 700;
+}
+.join .btn-joinus{
+    color: #ed145b;
+    font-size: 16px;
+    background: #fff;
+    padding: 9px 60px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all .4s ease;
+}
+.join .btn-joinus:hover{
+	background: #5a5a5a;
+	color: #fff;
+}
+/*######## join  section starts########*/
+
+/*######## latest  section starts########*/
+.latest{
+    padding: 80px 0;
+}
+.latest h2{
+    font-size: 35px;
+    color: #5a5a5a;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.latest h2:after{
+    content: "";
+    height: 2px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #ed145b;
+}
+.latest p{
+     color: #5a5a5a;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 30px 0 60px;
+    padding: 0 17%;
+}
+.latest .card{
+    border: none;
+    margin-bottom: 45px;
+}
+.latest .card .hover{
+    position: relative;
+}
+.latest .card .hover:hover .overlay{
+    opacity: 1;
+}
+.latest .overlay{
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ed145be3;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .4s linear; 
+}
+.latest .overlay a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 45px;
+}
+.latest .card-body{
+     background: #f4f4f4;
+}
+.latest .card-body h5{
+     color: #5a5a5a;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+}
+.latest .card-body p{
+    margin: 0;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.latest .show-more{
+    text-align: center;
+    margin: 0 auto;
+    color: #ed145b;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.latest .show-more i{
+    font-size: 20px;
+    margin-top: 8px;
+    transition: all .4s ease;
+}
+.latest .show-more:hover{
+    text-decoration: none;
+}
+.latest .show-more:hover i{
+	transform: translateY(10px);
+}
+
+/*######## latest  section end########*/
+/*######## template  section starts########*/
+.template{
+	background: url(../img/banner-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+}
+.template h2{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+}
+.template h2:after{
+	content: '';
+	height: 2px;
+    width: 200px;
+    background: #ed145b;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.template p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 30px 0 60px;
+    padding: 0 14%;
+    font-weight: 300;
+}
+.template .btn-more{
+	color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    background: #ed145b;
+    padding: 10px 45px;
+    border-radius: 30px;
+    transition: all .4s linear;
+}
+.template .btn-more:hover{
+	background: transparent;
+    border: 1px solid #ed145b;
+}
+/*######## template  section end########*/
+/*######## download  section starts########*/
+
+.download{
+    padding: 80px 0;
+    position: relative;
+    padding-bottom: 130px;
+}
+.download img{
+    width: 115%;
+    position: absolute;
+    top: 0;
+    left: -150px;
+    margin-bottom: 55px;
+}
+.download h2{
+    font-size: 35px;
+    color: #5a5a5a;
+    font-weight: 300;
+    padding-right: 15%;
+    font-style: italic;
+    margin-top: 10%;
+}
+.download h2:after{
+	content: '';
+	height: 2px;
+	width: 200px;
+	background: #ed145b;
+	display: block;
+	margin-top: 20px;
+}
+.download p{
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 30px 0;
+}
+.download .btn-download{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    background: #ed145b;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: all .4s ease;
+}
+.download .btn-download:hover{
+	background: #5a5a5a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*######## download  section end########*/
+/*######## footer  section starts ########*/
+footer{
+    background: #2b2b2b;
+    padding: 50px 0;
+}
+footer p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+}
+footer p span{
+    font-weight: 700;
+}
+footer .right{
+	text-align: right;
+}
+/*######## footer  section end########*/
+
+
+
+
+
+
+
+
